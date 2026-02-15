@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HellThorn SMP</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #121212;
+            color: #eee;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        a {
+            color: #eee;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1e1e1e;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            margin: 0 10px;
+            font-size: 14px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .btn-vote {
+            background-color: #1e90ff;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .btn-vote:hover {
+            background-color: #3aa0ff;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        p.desc {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            color: #ccc;
+        }
+        .btn-join {
+            background-color: #2962ff;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        .btn-join:hover {
+            background-color: #558bff;
+        }
+        section.features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .feature-box {
+            background-color: #1e1e1e;
+            padding: 15px 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: left;
+            box-shadow: 0 0 5px #000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .feature-box h3 {
+            margin: 0;
+            font-weight: 700;
+            flex-grow: 1;
+        }
+        .small-tag {
+            font-size: 0.8rem;
+            background-color: #2962ff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: white;
+            font-weight: 600;
+        }
+        .image-container {
+            max-width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 60px;
+            box-shadow: 0 0 10px #000;
+        }
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+        /* Responsive */
+        @media (max-width: 700px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            .feature-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="discordNav">Discord</a>
+            <a href="#staff">Staff</a>
+            <a href="#store">
+                Store <span style="background:#4ade80;color:#064e3b;padding:2px 6px;border-radius:4px;font-size:12px;">27%</span>
+            </a>
+        </nav>
+        <button class="btn-vote">Vote Now</button>
+    </header>
+
+    <main>
+        <h1>HellThorn SMP</h1>
+        <p class="desc">
+            Selamat datang di Landing Page HellThorn SMP! Temukan semua informasi terbaru tentang server Minecraft kami yang penuh petualangan!
+        </p>
+        <button class="btn-join">Join Server</button>
+
+        <section class="features" aria-label="Fitur Server">
+            <div class="feature-box">
+                <h3>Atemin Ramah</h3>
+            </div>
+            <div class="feature-box">
+                <h3>Sering Bansos</h3>
+            </div>
+            <div class="feature-box">
+                <h3>Bisa Voice Chat (untuk java) <span class="small-tag">New</span></h3>
+            </div>
+        </section>
+
+        <div class="image-container">
+            <img src="https://responsible-silver-oc8vngjn74.edgeone.app/Tak%20berjudul16_20251002173746.png" alt="Gambar server Minecraft HellThorn SMP" />
+        </div>
+
+        <!-- Contoh section Staff -->
+        <section id="staff" style="max-width:900px; margin:40px auto 60px; padding:0 20px; color:#eee;">
+  <h2 style="text-align:center; font-weight:700; font-size:2rem; margin-bottom: 32px;">Staff</h2>
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
+    justify-items: center;
+  ">
+    <!-- Slot Staff 1 -->
+    <div style="background:#1e1e1e; border-radius:12px; padding:20px; width:180px; box-shadow: 0 0 15px #000; text-align:center;">
+      <img
+        src="https://balanced-plum-alzp5rkhom.edgeone.app/IMG-20260215-WA0013.jpg"
+        alt="Excel"
+        style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 14px;"
+        loading="lazy"
+      />
+      <h3 style="margin:0 0 6px;">Excel MC</h3>
+      <p style="color:#4ade80; font-weight: 600; margin: 0;">Admin</p>
+    </div>
+
+    <!-- Slot Staff 2 -->
+    <div style="background:#1e1e1e; border-radius:12px; padding:20px; width:180px; box-shadow: 0 0 15px #000; text-align:center;">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpm02iReYZ5CTKWuu1VLAXnak3c9PqFbss439gZao2n4ybQnTTkfVGr_JB&s=10"
+        alt="RowkKy"
+        style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 14px;"
+        loading="lazy"
+      />
+      <h3 style="margin:0 0 6px;">RowkKyKING</h3>
+      <p style="color:#facc15; font-weight: 600; margin: 0;">Helper</p>
+    </div>
+
+    <!-- Slot Staff 3 -->
+    <div style="background:#1e1e1e; border-radius:12px; padding:20px; width:180px; box-shadow: 0 0 15px #000; text-align:center;">
+      <img
+        src="https://residential-scarlet-iiglsdzrw3.edgeone.app/IMG-20260215-WA0014.jpg"
+        alt="Avatar Staff 3"
+        style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 14px;"
+        loading="lazy"
+      />
+      <h3 style="margin:0 0 6px;">RakaSchIsHere</h3>
+      <p style="color:#3b82f6; font-weight: 600; margin: 0;">Admin</p>
+    </div>
+
+    <!-- Slot Staff 4 -->
+    <div style="background:#1e1e1e; border-radius:12px; padding:20px; width:180px; box-shadow: 0 0 15px #000; text-align:center;">
+      <img
+        src="https://cuddly-fuchsia-pkwm4zsfeg.edgeone.app/IMG_20260215_112019.png"
+        alt="Avatar Staff 4"
+        style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 14px;"
+        loading="lazy"
+      />
+      <h3 style="margin:0 0 6px;">Dyyrex </h3>
+      <p style="color:#ef4444; font-weight: 600; margin: 0;">Developer</p>
+    </div>
+  </div>
+</section>
+        </section>
+
+        <!-- Contoh section Store -->
+        <section id="store" style="text-align:left; max-width:900px; margin:auto 20px 60px;">
+            <h2>Store</h2>
+            <p>Dapatkan item dan paket menarik di server kami.</p>
+        </section>
+    </main>
+
+    <script>
+        const discordLink = 'https://discord.gg/your-discord-link'; // Ganti dengan link Discord server Anda
+
+        document.getElementById('discordNav').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(discordLink, '_blank');
+        });
+    </script>
+</body>
+</html>
