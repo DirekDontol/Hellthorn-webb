@@ -151,7 +151,7 @@
         <nav>
             <a href="#" id="discordNav">Discord</a>
             <a href="#staff">Staff</a>
-            <a href="#store">
+            <a href="#" id="storeNav">
                 Store <span style="background:#4ade80;color:#064e3b;padding:2px 6px;border-radius:4px;font-size:12px;">27%</span>
             </a>
         </nav>
@@ -251,10 +251,16 @@
 
     <script>
         const discordLink = 'https://discord.gg/your-discord-link'; // Ganti dengan link Discord server Anda
+        const storeLink = 'https://shop.hellthorn.my.id'; // Link untuk Store
 
         document.getElementById('discordNav').addEventListener('click', function(e) {
             e.preventDefault();
             window.open(discordLink, '_blank');
+        });
+
+        document.getElementById('storeNav').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(storeLink, '_blank');
         });
 
         // Fungsi untuk tombol Join Server (copy IP)
